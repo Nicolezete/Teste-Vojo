@@ -1,0 +1,270 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Noto Sans';
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em;
+    color: black;
+}
+
+p{
+    font-size: 1em;
+    color: gray;
+}
+
+body{
+    background-color:white;
+}
+
+/* header */
+.menu2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 2% 8% 5%;
+}
+
+.menu2 li{
+    float: left;
+}
+
+.menu2 li a{
+    color: black;
+    margin-right: 25px;
+}
+
+.menu2 li a:hover{
+    color: rgb(131, 130, 115);
+}
+
+.cabecalho2{
+    width: 100%;
+    float: left;
+    
+    background-image: 
+        url(),
+        url(https://www.pngkit.com/png/full/193-1939512_prev-next-triangulo-laranja-png.png), 
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROrV9hPgLLRUc793UjDApScEFkymog6BFyDKwY5nLhzN36yUsF_em8URC7ickFT7yJTF0&usqp=CAU);
+    background-position: 
+        right 120px, 
+        center;
+}
+
+.cabecalho2 form{
+    width: 50%;
+    float: right;
+    margin: 2% 4%;
+}
+
+.cabecalho2 input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+.cabecalho2 button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: rgb(231, 129, 13);
+    color: whitesmoke;
+    border-radius: 0 5px 5px 0;
+}
+
+/* main principal */
+.principal2{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+
+/* div video */
+.video {
+    width: 90%;
+}
+
+.video h2{
+    margin-top: 4%;
+}
+
+.video img{
+    width: 30%;
+    float: left;
+}
+
+.video iframe{
+    margin-top: 5%;
+}
+
+/* div cores */
+.cores{
+    width: 100%;
+    float: left;
+    padding: 40px 8%;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    margin-top: 5%;
+}
+
+.cores p{
+    width: 40%;
+    margin-top: 2%;
+}
+
+.cores h2{
+    color: orange;
+    width: 40%;
+}
+
+.cores button{
+    width: 17%;
+    padding: 9px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(212, 211, 211);
+    color: rgb(75, 73, 70);
+    font-size: 20px ;
+}
+
+.cores button:hover{
+    background-color: rgb(250, 230, 214);
+    color:rgb(231, 129, 13);
+}
+
+.laranja{
+    float: right;
+    width: 40%;
+    padding: 60px 2%;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-orange-fruit-advertising-background-paintedorangefruitadbackground-image_82905.jpg);
+    border-radius: 7px;
+}
+
+.laranja p{
+    width: 100%;
+    color: rgb(250, 248, 245);
+    text-align: center;
+}
+
+/* div cores2 */
+.cores2{
+    width: 100%;
+    float: left;
+    padding: 40px 8%;
+    align-items: center;
+    background-color: rgb(235, 233, 243);
+}
+
+.cores2 p{
+    width: 40%;
+    margin-top: 2%;
+}
+
+.cores2 h2{
+    color: rgb(151, 69, 218);
+    width: 40%;
+}
+
+.cores2 button{
+    width: 17%;
+    padding: 9px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(212, 211, 211);
+    color: rgb(75, 73, 70);
+    font-size: 20px ;
+}
+
+.cores2 button:hover{
+    background-color: rgb(214, 186, 240);
+    color:rgb(164, 69, 228);
+}
+
+.roxo{
+    float: right;
+    width: 40%;
+    padding: 60px 2%;
+    background-image: url(https://i.pinimg.com/originals/be/72/c6/be72c66657aa8b25a3f2731150610eca.png);
+    border-radius: 7px;
+}
+
+.roxo p{
+    width: 100%;
+    color: rgb(250, 248, 245);
+    text-align: center;
+}
+
+
+/* div paragrafo */
+.paragrafo{
+    width: 100%;
+    float: left;
+    padding: 30px 8%;
+}
+
+.paragrafo h2{
+    margin-top: 2%;
+}
+
+.paragrafo p{
+    margin-top: 3%;
+    padding-right: 8%;
+}
+
+
+/*rodape*/
+.icones-social2{
+    float: right;
+    padding-right: 3%;
+}
+
+.icones-social2 a{
+    float: left;
+    color: whitesmoke;
+}
+
+.facebook:hover{
+    color: #3B5998;
+}
+
+.twitter:hover{
+    color: #54A4D6;
+}
+
+.google:hover{
+    color: #D73D32 ;
+}
+
+.rodape2{
+    width: 100%;
+    float: left;
+    background-image: url(https://i.pinimg.com/originals/5e/e2/c6/5ee2c6d0b452d2a5021140ac9a8db30a.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12px 8%;
+}
+
+.rodape2 p{
+    color: whitesmoke;
+}
