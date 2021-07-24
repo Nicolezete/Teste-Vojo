@@ -1,1 +1,1 @@
-Site realizado para atestar conhecimentos em front-end.
+Front-end feito apenas com HTML e CSS.
